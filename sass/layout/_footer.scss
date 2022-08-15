@@ -1,0 +1,92 @@
+.footer {
+  background: var(--footer-bg-cl);
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+    &__container {
+        display: flex;
+        align-items: baseline;
+    }
+
+    &__logo {
+        font-family: var(--secondary-font);
+        text-decoration: none;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.2;
+        letter-spacing: 0.03em;
+        color: var(--footer-logo-txt-cl);
+    }
+
+    &__logo-studio {
+        color: var(--footer-logo-studio-txt-cl);
+    }
+
+    &__address {
+        width: 231px;
+        margin-top: 20px;
+    }
+
+    &__list {
+        list-style: none;
+    }
+}
+
+.footer__address {
+    :not(:first-child) {
+        margin-top: 9px;
+    }
+}
+
+.footer__map {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--footer-map-txt-cl);
+
+  transition: color var(--animation);
+
+    &:focus,
+    &:hover {
+        color: var(--header-hover-focus-cl);
+    }
+}
+
+.footer__mail {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--footer-mail-phone-txt-cl);
+
+  transition: color var(--animation);
+
+    &:focus,
+    &:hover {
+        color: var(--header-hover-focus-cl);
+    }
+}
+
+.footer__phone {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--footer-mail-phone-txt-cl);
+
+  transition: color var(--animation);
+
+    &:focus,
+    &:hover {
+        color: var(--header-hover-focus-cl);
+    }
+}
+
+
