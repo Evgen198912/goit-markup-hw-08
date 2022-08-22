@@ -27,6 +27,13 @@
         <a class="header__logo" href="./index.html"
           >Web<span class="header__logo-studio">Studio</span></a
         >
+
+        <button class="menu-btn" type="button" data-menu-open>
+          <svg width="40" height="40">
+            <use href="./images/icons.svg#menu_40px"></use>
+          </svg>
+        </button>
+
         <nav class="header__nav">
           <ul class="header__list">
             <li class="header__item">
@@ -65,19 +72,19 @@
       <section class="filter">
         <div class="container">
           <ul class="filter__list">
-            <li>
+            <li class="filter__item">
               <button class="filter__btn" type="button">Все</button>
             </li>
-            <li>
+            <li class="filter__item">
               <button class="filter__btn" type="button">Веб-сайты</button>
             </li>
-            <li>
+            <li class="filter__item">
               <button class="filter__btn" type="button">Приложения</button>
             </li>
-            <li>
+            <li class="filter__item">
               <button class="filter__btn" type="button">Дизайн</button>
             </li>
-            <li>
+            <li class="filter__item">
               <button class="filter__btn" type="button">Маркетинг</button>
             </li>
           </ul>
@@ -90,9 +97,18 @@
                 <div class="project__overlay">
                   <img
                     class="project__img"
-                    src="./images/main/project1.jpg"
+                    srcset="
+                      ./images/main/img354.jpg 354w,
+                      ./images/main/img370.jpg 370w,
+                      ./images/main/img450.jpg 450w,
+                      ./images/main/img708.jpg 708w,
+                      ./images/main/img740.jpg 740w,
+                      ./images/main/img900.jpg 900w
+                    "
+                    sizes="(min-width: 1200px) 370px, (min-width: 768px) 354px, 100vw"
+                    src="./images/main/img354.jpg"
                     alt="Ноутбук"
-                    width="370"
+                    width="450"
                     height="294"
                   />
                   <div class="overlay">
@@ -114,9 +130,18 @@
                 <div class="project__overlay">
                   <img
                     class="project__img"
-                    src="./images/main/project2.jpg"
+                    srcset="
+                      ./images/main/img354-1.jpg 354w,
+                      ./images/main/img370-1.jpg 370w,
+                      ./images/main/img450-1.jpg 450w,
+                      ./images/main/img708-1.jpg 708w,
+                      ./images/main/img740-1.jpg 740w,
+                      ./images/main/img900-1.jpg 900w
+                    "
+                    sizes="(min-width: 1200px) 370px, (min-width: 768px) 354px, 100vw"
+                    src="./images/main/img354-1.jpg"
                     alt="Постер"
-                    width="370"
+                    width="450"
                     height="294"
                   />
                   <div class="overlay">
@@ -138,9 +163,18 @@
                 <div class="project__overlay">
                   <img
                     class="project__img"
-                    src="./images/main/project3.jpg"
+                    srcset="
+                      ./images/main/img354-2.jpg 354w,
+                      ./images/main/img370-2.jpg 370w,
+                      ./images/main/img450-2.jpg 450w,
+                      ./images/main/img708-2.jpg 708w,
+                      ./images/main/img740-2.jpg 740w,
+                      ./images/main/img900-2.jpg 900w
+                    "
+                    sizes="(min-width: 1200px) 370px, (min-width: 768px) 354px, 100vw"
+                    src="./images/main/img354-2.jpg"
                     alt="Рыба"
-                    width="370"
+                    width="450"
                     height="294"
                   />
                   <div class="overlay">
@@ -162,9 +196,18 @@
                 <div class="project__overlay">
                   <img
                     class="project__img"
-                    src="./images/main/project4.jpg"
+                    srcset="
+                      ./images/main/img354-3.jpg 354w,
+                      ./images/main/img370-3.jpg 370w,
+                      ./images/main/img450-3.jpg 450w,
+                      ./images/main/img708-3.jpg 708w,
+                      ./images/main/img740-3.jpg 740w,
+                      ./images/main/img900-3.jpg 900w
+                    "
+                    sizes="(min-width: 1200px) 370px, (min-width: 768px) 354px, 100vw"
+                    src="./images/main/img354-3.jpg"
                     alt="Наушники"
-                    width="370"
+                    width="450"
                     height="294"
                   />
                   <div class="overlay">
@@ -186,9 +229,18 @@
                 <div class="project__overlay">
                   <img
                     class="project__img"
-                    src="./images/main/project5.jpg"
+                    srcset="
+                      ./images/main/img354-4.jpg 354w,
+                      ./images/main/img370-4.jpg 370w,
+                      ./images/main/img450-4.jpg 450w,
+                      ./images/main/img708-4.jpg 708w,
+                      ./images/main/img740-4.jpg 740w,
+                      ./images/main/img900-4.jpg 900w
+                    "
+                    sizes="(min-width: 1200px) 370px, (min-width: 768px) 354px, 100vw"
+                    src="./images/main/img354-4.jpg"
                     alt="Коробки"
-                    width="370"
+                    width="450"
                     height="294"
                   />
                   <div class="overlay">
@@ -210,9 +262,18 @@
                 <div class="project__overlay">
                   <img
                     class="project__img"
-                    src="./images/main/project6.jpg"
+                    srcset="
+                      ./images/main/img354-5.jpg 354w,
+                      ./images/main/img370-5.jpg 370w,
+                      ./images/main/img450-5.jpg 450w,
+                      ./images/main/img708-5.jpg 708w,
+                      ./images/main/img740-5.jpg 740w,
+                      ./images/main/img900-5.jpg 900w
+                    "
+                    sizes="(min-width: 1200px) 370px, (min-width: 768px) 354px, 100vw"
+                    src="./images/main/img354-5.jpg"
                     alt="Монитор"
-                    width="370"
+                    width="450"
                     height="294"
                   />
                   <div class="overlay">
@@ -234,9 +295,18 @@
                 <div class="project__overlay">
                   <img
                     class="project__img"
-                    src="./images/main/project7.jpg"
+                    srcset="
+                      ./images/main/img354-6.jpg 354w,
+                      ./images/main/img370-6.jpg 370w,
+                      ./images/main/img450-6.jpg 450w,
+                      ./images/main/img708-6.jpg 708w,
+                      ./images/main/img740-6.jpg 740w,
+                      ./images/main/img900-6.jpg 900w
+                    "
+                    sizes="(min-width: 1200px) 370px, (min-width: 768px) 354px, 100vw"
+                    src="./images/main/img354-6.jpg"
                     alt="Книга"
-                    width="370"
+                    width="450"
                     height="294"
                   />
                   <div class="overlay">
@@ -258,9 +328,18 @@
                 <div class="project__overlay">
                   <img
                     class="project__img"
-                    src="./images/main/project8.jpg"
+                    srcset="
+                      ./images/main/img354-7.jpg 354w,
+                      ./images/main/img370-7.jpg 370w,
+                      ./images/main/img450-7.jpg 450w,
+                      ./images/main/img708-7.jpg 708w,
+                      ./images/main/img740-7.jpg 740w,
+                      ./images/main/img900-7.jpg 900w
+                    "
+                    sizes="(min-width: 1200px) 370px, (min-width: 768px) 354px, 100vw"
+                    src="./images/main/img354-7.jpg"
                     alt="Лейба"
-                    width="370"
+                    width="450"
                     height="294"
                   />
                   <div class="overlay">
@@ -282,9 +361,18 @@
                 <div class="project__overlay">
                   <img
                     class="project__img"
-                    src="./images/main/project9.jpg"
+                    srcset="
+                      ./images/main/img354-8.jpg 354w,
+                      ./images/main/img370-8.jpg 370w,
+                      ./images/main/img450-8.jpg 450w,
+                      ./images/main/img708-8.jpg 708w,
+                      ./images/main/img740-8.jpg 740w,
+                      ./images/main/img900-8.jpg 900w
+                    "
+                    sizes="(min-width: 1200px) 370px, (min-width: 768px) 354px, 100vw"
+                    src="./images/main/img354-8.jpg"
                     alt="Ноутбук на рабочем столе"
-                    width="370"
+                    width="450"
                     height="294"
                   />
                   <div class="overlay">
@@ -308,86 +396,90 @@
     <!-- Footer section -->
     <footer class="footer">
       <div class="footer__container container">
-        <div class="address__container">
-          <a class="footer__logo" href="./index.html"
-            >Web<span class="footer__logo-studio">Studio</span></a
-          >
-          <address class="footer__address">
-            <ul class="footer__list">
+        <div class="footer__contacts">
+          <div class="address__container">
+            <a class="footer__logo" href="./index.html">
+              Web
+              <span class="footer__logo-studio">Studio</span>
+            </a>
+            <address class="footer__address">
+              <ul class="footer__list">
+                <li class="footer__item">
+                  <a
+                    class="footer__map"
+                    href="https://goo.gl/maps/7ycRSMkdSKVbWAqV6"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    г. Киев, пр-т Леси Украинки, 26
+                  </a>
+                </li>
+                <li class="footer__item">
+                  <a class="footer__mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                </li>
+                <li class="footer__item">
+                  <a class="footer__phone" href="tel:+380991111111">+38 099 111 11 11</a>
+                </li>
+              </ul>
+            </address>
+          </div>
+          <div class="footer__socials-container">
+            <p class="footer__title">присоединяйтесь</p>
+            <ul class="footer__socials list">
               <li class="footer__item">
                 <a
-                  class="footer__map"
-                  href="https://goo.gl/maps/7ycRSMkdSKVbWAqV6"
+                  class="footer__link link"
+                  href=""
                   target="_blank"
                   rel="noopener noreferrer"
-                  >г. Киев, пр-т Леси Украинки, 26
+                  aria-label="instagram"
+                >
+                  <svg class="footer__icon" width="20" height="20">
+                    <use href="./images/icons.svg#instagram"></use>
+                  </svg>
                 </a>
               </li>
               <li class="footer__item">
-                <a class="footer__mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                <a
+                  class="footer__link link"
+                  href=""
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="twitter"
+                >
+                  <svg class="footer__icon" width="20" height="20">
+                    <use href="./images/icons.svg#twitter"></use>
+                  </svg>
+                </a>
               </li>
               <li class="footer__item">
-                <a class="footer__phone" href="tel:+380991111111">+38 099 111 11 11</a>
+                <a
+                  class="footer__link link"
+                  href=""
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="facebook"
+                >
+                  <svg class="footer__icon" width="20" height="20">
+                    <use href="./images/icons.svg#facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="footer__item">
+                <a
+                  class="footer__link link"
+                  href=""
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="linkedin"
+                >
+                  <svg class="footer__icon" width="20" height="20">
+                    <use href="./images/icons.svg#linkedin"></use>
+                  </svg>
+                </a>
               </li>
             </ul>
-          </address>
-        </div>
-        <div class="footer__socials-container">
-          <p class="footer__title">присоединяйтесь</p>
-          <ul class="footer__socials list">
-            <li class="footer__item">
-              <a
-                class="footer__link link"
-                href=""
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="instagram"
-              >
-                <svg class="footer__icon" width="20" height="20">
-                  <use href="./images/icons.svg#instagram"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="footer__item">
-              <a
-                class="footer__link link"
-                href=""
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="twitter"
-              >
-                <svg class="footer__icon" width="20" height="20">
-                  <use href="./images/icons.svg#twitter"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="footer__item">
-              <a
-                class="footer__link link"
-                href=""
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="facebook"
-              >
-                <svg class="footer__icon" width="20" height="20">
-                  <use href="./images/icons.svg#facebook"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="footer__item">
-              <a
-                class="footer__link link"
-                href=""
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="linkedin"
-              >
-                <svg class="footer__icon" width="20" height="20">
-                  <use href="./images/icons.svg#linkedin"></use>
-                </svg>
-              </a>
-            </li>
-          </ul>
+          </div>
         </div>
 
         <!-- footer form -->
@@ -403,12 +495,90 @@
             />
           </label>
           <button class="footer__btn" type="submit">
-            Подписаться<svg class="footer__btn-icon" width="24" height="24">
+            Подписаться
+            <svg class="footer__btn-icon" width="24" height="24">
               <use href="./images/icons.svg#airplane"></use>
             </svg>
           </button>
         </form>
       </div>
     </footer>
+    <!-- Menu -->
+    <div class="menu-overlay" data-menu>
+      <div class="menu-container">
+        <button class="menu__close-btn" type="button" data-menu-close>
+          <svg class="menu__icon-btn" width="40" height="40">
+            <use href="./images/icons.svg#close_40px"></use>
+          </svg>
+        </button>
+
+        <nav class="menu__nav">
+          <ul class="menu__list">
+            <li class="menu__item">
+              <a class="menu__link link" href="./index.html">Студия</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link link menu__link--active" href="./portfolio.html">Портфолио</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link link" href="#">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="menu__contacts list">
+          <li class="menu__contacts-item">
+            <a class="menu__contacts-phone link" href="tel:+380961111111">+38 096 111 11 11</a>
+          </li>
+          <li class="menu__contacts-item">
+            <a class="menu__contacts-mail link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+        </ul>
+        <ul class="menu__socials list">
+          <li class="menu__socials-item">
+            <a
+              class="menu__socials-link link"
+              href=""
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="instagram"
+              >Instagram
+            </a>
+          </li>
+          <li class="menu__socials-item">
+            <a
+              class="menu__socials-link link"
+              href=""
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="twitter"
+              >Twitter
+            </a>
+          </li>
+          <li class="menu__socials-item">
+            <a
+              class="menu__socials-link link"
+              href=""
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="facebook"
+              >Facebook
+            </a>
+          </li>
+          <li class="menu__socials-item">
+            <a
+              class="menu__socials-link link"
+              href=""
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="linkedin"
+              >Linkedin
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <script src="./js/menu.js"></script>
   </body>
 </html>
