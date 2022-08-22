@@ -898,9 +898,6 @@ section {
   -webkit-transition: background var(--animation);
   transition: background var(--animation);
 }
-.hero__btn:focus, .hero__btn:hover {
-  background: var(--hero-hover-focus-btn-bg-cl);
-}
 
 @media screen and (min-width: 480px) {
   .hero {
@@ -916,6 +913,11 @@ section {
   .hero {
     background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/hero/header-img@2x_mb.jpg);
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero/header-img@2x_mb.jpg);
+  }
+}
+@media screen and (min-width: 480px) {
+  .hero .hero__btn:active {
+    background: var(--hero-hover-focus-btn-bg-cl);
   }
 }
 @media screen and (min-width: 480px) {
@@ -960,6 +962,11 @@ section {
     width: 696px;
     font-size: 44px;
     line-height: 1.3636363636;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .hero__btn:focus, .hero__btn:hover {
+    background: var(--hero-hover-focus-btn-bg-cl);
   }
 }
 .features__list {

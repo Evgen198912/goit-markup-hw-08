@@ -50,10 +50,10 @@
 
   transition: background var(--animation);
 
-  &:focus,
-  &:hover {
-    background: var(--hero-hover-focus-btn-bg-cl);
-  }
+  // &:focus,
+  // &:hover {
+  //   background: var(--hero-hover-focus-btn-bg-cl);
+  // }
 }
 
 @media screen and (min-width: 480px) {
@@ -69,6 +69,12 @@
     @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
       background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
         url(../images/hero/header-img@2x_mb.jpg);
+    }
+
+    .hero__btn {
+      &:active {
+        background: var(--hero-hover-focus-btn-bg-cl);
+      }
     }
   }
 
@@ -114,5 +120,12 @@
     width: 696px;
     font-size: 44px;
     line-height: calc(60 / 44);
+  }
+
+  .hero__btn {
+    &:focus,
+    &:hover {
+      background: var(--hero-hover-focus-btn-bg-cl);
+    }
   }
 }
