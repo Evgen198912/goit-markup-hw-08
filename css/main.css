@@ -916,7 +916,7 @@ section {
   }
 }
 @media screen and (min-width: 480px) {
-  .hero .hero__btn:active {
+  .hero__btn:active {
     background: var(--hero-hover-focus-btn-bg-cl);
   }
 }
