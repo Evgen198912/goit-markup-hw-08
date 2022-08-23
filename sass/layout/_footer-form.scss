@@ -16,7 +16,7 @@
   padding-left: 16px;
   padding-right: 16px;
   margin-top: 20px;
-  margin-right: 12px;
+  // margin-right: 12px;
 
   // width: 358px;
 
@@ -84,7 +84,12 @@
   // }
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 479px) {
+  .footer__form-input {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 1199px) {
   .footer__form {
     text-align: center;
 
@@ -119,15 +124,16 @@
 @media screen and (min-width: 1200px) {
   .footer__form {
     &-label {
-      display: inline-flex;      
+      display: inline-flex;
     }
-        &-title {
-          text-align: start;
-          margin-top: 0;
-        }
+    &-title {
+      text-align: start;
+      margin-top: 0;
+    }
   }
 
   .footer__form-input {
+    margin-right: 12px;
     width: 358px;
 
     &:hover,

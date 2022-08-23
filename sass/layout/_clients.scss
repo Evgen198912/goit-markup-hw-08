@@ -43,6 +43,24 @@
   //   }
 }
 
+@media screen and (max-width: 479px) {
+  .clients {
+    &__title {
+      font-size: 28px;
+      line-height: calc(33 / 28);
+    }
+  }
+
+  .clients__link {
+    min-width: 130px;
+
+    &:active {
+      border-color: var(--clients-link-bg-cl);
+      color: var(--clients-link-bg-cl);
+    }
+  }
+}
+
 @media screen and (min-width: 480px) {
   .clients {
     &__title {
