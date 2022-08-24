@@ -209,6 +209,10 @@
     }
   }
 
+  .address__container {
+    text-align: start;
+  }
+
   .footer__map {
     &:focus,
     &:hover {
